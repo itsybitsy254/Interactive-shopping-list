@@ -1,0 +1,45 @@
+body {
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .container {
+    height: 500px;
+    width: 800px;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e2ceb7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .container h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .container input{
+    height: 30px;
+    width: 350px;
+  }
+  .buttons{
+    position: absolute;
+    padding-top: 13px;
+  }
+  button {
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d221d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  .purchased {
+    color: green;
+  }
+  
+  
